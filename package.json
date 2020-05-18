@@ -1,6 +1,6 @@
 {
   "name": "trit-jwt-generator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "JWT generator for trit-jitsi",
   "main": "index.js",
   "repository": {
@@ -12,5 +12,5 @@
   },
   "author": "kalukali",
   "license": "ISC",
-  "dependencies": {}
+  "keywords": ["trit"]
 }
