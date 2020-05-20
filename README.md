@@ -16,7 +16,7 @@ date.setHours(date.getHours()+2);// how long the token will be active, in this c
 
 let secret_key = 'test';
 
-let token = trit_jwt(server_params,secret_key,date,
+let token = trit_jwt.generateJWT(server_params,secret_key,date,
     {
         user:{ // see github.com/jitsi/lib-jitsi-meet/blob/master/doc/tokens.md
             name:'Carl Carlson',
